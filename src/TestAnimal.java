@@ -1,5 +1,13 @@
 public class TestAnimal {
-    public static void main(String[] args) {
+
+/** 
+ *
+ * Main
+ *
+ * @param args  the args
+ */
+    public static void main(String[] args) { 
+
         Bear bear = new Bear("Winnie the Pooh");
         System.out.println(bear);
         bear.hunt();
