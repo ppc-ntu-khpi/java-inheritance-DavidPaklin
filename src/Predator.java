@@ -1,5 +1,12 @@
 public class Predator extends Animal {
-    public void hunt() {
+
+/** 
+ *
+ * Hunt
+ * method for text output
+ */
+    public void hunt() { 
+
         System.out.println("Predator is hunting");
     }
 }
