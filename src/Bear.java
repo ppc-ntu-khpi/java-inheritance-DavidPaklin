@@ -1,29 +1,91 @@
 public class Bear extends Predator {
     private String kind;
-    public Bear(String name, int weight, String kind) {
+
+/** 
+ *
+ * Bear
+ *
+ * @param name  the name
+ * @param weight  the weight
+ * @param kind  the kind
+ */
+    public Bear(String name, int weight, String kind) { 
+
         this.name = name;
         this.weight = weight;
         this.kind = kind;
     }
-    public Bear() {
+
+/** 
+ *
+ * Bear
+ * default constructor
+ *
+ */
+    public Bear() { 
+
         this("Fluffy", 500, "brown bear");
     }
-    public Bear(String name) {
+
+/** 
+ *
+ * Bear
+ * constructor that accepts a name
+ * @param name  the name
+ */
+    public Bear(String name) { 
+
         this(name, 500, "brown bear");
     }
-    public void play() {
+
+/** 
+ *
+ * Play
+ * method for text output
+ */
+    public void play() { 
+
         System.out.println("Bear is walking and playing");
     }
-    public void hunt() {
+
+/** 
+ *
+ * Hunt
+ * method for text output
+ */
+    public void hunt() { 
+
         System.out.println("Bear hunting for a fish");
     }
-    public String toString() {
+
+/** 
+ *
+ * To string
+ *
+ * @return String
+ */
+    public String toString() { 
+
         return super.toString() + "\nKind:\t" + this.kind + "\n\nThis is Bear";
     }
-    public void speak() {
+
+/** 
+ *
+ * Speak
+ * method for text output
+ */
+    public void speak() { 
+
         System.out.println("Bear is growling");
     }
-    public void eat() {
+
+/** 
+ *
+ * Eat
+ * method for text output
+ */
+    public void eat() { 
+
         System.out.println("Bear eats fish");
     }
 }
